@@ -1,9 +1,9 @@
-package com.ecommerce.ecommerceproject.services;
+package com.product.productservice.services;
 
-import com.ecommerce.ecommerceproject.dtos.FakeStoreProductDto;
-import com.ecommerce.ecommerceproject.exceptions.ProductNotFoundException;
-import com.ecommerce.ecommerceproject.models.FakeStoreCategory;
-import com.ecommerce.ecommerceproject.models.FakeStoreProduct;
+import com.product.productservice.dtos.FakeStoreProductDto;
+import com.product.productservice.exceptions.ProductNotFoundException;
+import com.product.productservice.models.FakeStoreCategory;
+import com.product.productservice.models.FakeStoreProduct;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

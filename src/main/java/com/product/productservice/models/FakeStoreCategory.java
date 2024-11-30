@@ -1,4 +1,4 @@
-package com.ecommerce.ecommerceproject.models;
+package com.product.productservice.models;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.ecommerce.ecommerceproject.exceptions;
+package com.product.productservice.exceptions;
 
 import lombok.Getter;
 import lombok.Setter;

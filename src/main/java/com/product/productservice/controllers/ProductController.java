@@ -1,9 +1,8 @@
-package com.ecommerce.ecommerceproject.controllers;
+package com.product.productservice.controllers;
 
-import com.ecommerce.ecommerceproject.dtos.FakeStoreProductDto;
-import com.ecommerce.ecommerceproject.exceptions.ProductNotFoundException;
-import com.ecommerce.ecommerceproject.models.FakeStoreProduct;
-import com.ecommerce.ecommerceproject.services.ProductService;
+import com.product.productservice.exceptions.ProductNotFoundException;
+import com.product.productservice.models.FakeStoreProduct;
+import com.product.productservice.services.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

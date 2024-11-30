@@ -1,7 +1,7 @@
-package com.ecommerce.ecommerceproject.services;
+package com.product.productservice.services;
 
-import com.ecommerce.ecommerceproject.exceptions.ProductNotFoundException;
-import com.ecommerce.ecommerceproject.models.FakeStoreProduct;
+import com.product.productservice.exceptions.ProductNotFoundException;
+import com.product.productservice.models.FakeStoreProduct;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package com.ecommerce.ecommerceproject.exceptionhandlers;
+package com.product.productservice.exceptionhandlers;
 
-import com.ecommerce.ecommerceproject.dtos.ProductNotFoundExceptionDto;
-import com.ecommerce.ecommerceproject.exceptions.ProductNotFoundException;
+import com.product.productservice.dtos.ProductNotFoundExceptionDto;
+import com.product.productservice.exceptions.ProductNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
