@@ -7,8 +7,8 @@ import lombok.Setter;
 @Setter
 public class ProductNotFoundException extends Exception{
     private Long error_code;
-    public ProductNotFoundException(Long error_code, String message) {
+    public ProductNotFoundException(Long err_code, String message) {
         super(message);
-        this.error_code = error_code;
+        this.error_code = err_code;
     }
 }
